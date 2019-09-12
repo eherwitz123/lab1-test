@@ -7,12 +7,12 @@
 
     <script>
 
-      var API_KEY = '10fd4f40-d4bb-11e9-b067-bfceffa95218';
+      var API_KEY = '10fd4f40-d4bb-11e9-b067-bfceffa95218'
       fetch(`https://api.harvardartmuseums.org/gallery?apikey=${API_KEY}`)
       .then((response) => response.json())
       .then((data) => {
         console.log(data)
-        var test_record = data.records
+        var test_record = data.records;
       })
 
     </script>
