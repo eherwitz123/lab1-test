@@ -12,8 +12,13 @@
       .then((response) => response.json())
       .then((data) => {
         console.log(data)
+
         var test_record = data.records;
         var gallery_numb_test= test_record[1].gallerynumber
+
+        console.log(gallery_numb_test)
+
+
       })
 
     </script>
